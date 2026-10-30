@@ -35,7 +35,7 @@ def detect_script(text: str) -> str:
 class Engine:
     def __init__(self):
         print(f"[engine] Loading model: {config.MODEL_NAME}")
-        self.model = SentenceTransformer(config.MODEL_NAME)
+        self.model = SentenceTransformer(config.MODEL_NAME, device="cpu")
         self.items = self._load_corpus()
         self.emb = self._load_or_build()
         print(f"[engine] Ready. {len(self.items)} sentences, dim={self.emb.shape[1]}")
