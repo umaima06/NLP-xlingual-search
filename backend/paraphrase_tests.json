@@ -1,0 +1,14 @@
+[
+ {"query": "It is pouring outside", "target": "It is raining heavily today."},
+ {"query": "It's scorching these days", "target": "The weather is very hot this summer."},
+ {"query": "I'm starving", "target": "I am hungry."},
+ {"query": "Tomorrow morning I have my test", "target": "The exam starts tomorrow morning."},
+ {"query": "My head hurts and I feel feverish", "target": "I have a fever and a headache."},
+ {"query": "My phone is about to switch off", "target": "My phone battery is almost dead."},
+ {"query": "Mom's cooking is delicious", "target": "My mother cooks very tasty food."},
+ {"query": "I got hired by a tech firm", "target": "I got a job at a software company."},
+ {"query": "कल सुबह एग्ज़ाम है", "target": "The exam starts tomorrow morning."},
+ {"query": "मुझे बहुत भूख लगी है", "target": "I am hungry."},
+ {"query": "నాకు చాలా ఆకలిగా ఉంది", "target": "I am hungry."},
+ {"query": "రేపు పొద్దున్నే పరీక్ష ఉంది", "target": "The exam starts tomorrow morning."}
+]
